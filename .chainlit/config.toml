@@ -35,8 +35,8 @@ auto_tag_thread = true
 [features.spontaneous_file_upload]
     enabled = true
     accept = ["*/*"]
-    max_files = 20
-    max_size_mb = 500
+    max_files = 5
+    max_size_mb = 20
 
 [features.audio]
     # Threshold for audio recording
@@ -54,10 +54,10 @@ auto_tag_thread = true
 
 [UI]
 # Name of the app and chatbot.
-name = "Chatbot"
+name = "Sherpa"
 
 # Show the readme while the thread is empty.
-show_readme_as_default = false
+show_readme_as_default = true
 
 # Description of the app and chatbot. This is used for HTML tags.
 # description = ""
